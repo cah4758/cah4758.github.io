@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container-fluid">
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           Charles Hernandez
         </a>
         <button
@@ -34,6 +34,7 @@ function Navbar() {
               <a
                 className="nav-link text-light"
                 href="https://drive.google.com/file/d/16NtMKHNf1sDPbngWmwnvQjQOq0kWTN4g/view?usp=sharing"
+                rel="noreferrer"
                 target="_blank"
               >
                 Resume
