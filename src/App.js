@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Navbar />
       <div className="container">
         <AboutMe />
+        {/* <div className="row row-cols-12 row-cols-md-4 row-cols-lg-6 g-3">
+          <ProjectCard />
+        </div> */}
       </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
