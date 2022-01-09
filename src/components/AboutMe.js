@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <>
       <div className="text-center">
-        <img className="col-l-12" src={hero} alt="Charles Hernandez photos" />
+        <img className="col-l-12" src={hero} alt="Photos of Charles" />
       </div>
       <div className="section p-3" id="about-me">
         <a href="https://github.com/cah4758" rel="noreferrer" target="_blank">

@@ -41,16 +41,14 @@ const projectList = [
 ];
 
 export default function ProjectCard() {
-  <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    {projectList.map((project) => (
-      <Project
-        key={project.id}
-        title={project.title}
-        description={project.description}
-        repoLink={project.repoLink}
-        appLink={project.appLink}
-        screenshot={project.screenshot}
-      />
-    ))}
-  </div>;
+  return projectList.map((project) => (
+    <Project
+      key={project.id}
+      title={project.title}
+      description={project.description}
+      repoLink={project.repoLink}
+      appLink={project.appLink}
+      screenshot={project.screenshot}
+    />
+  ));
 }
