@@ -1,5 +1,9 @@
 import React from "react";
 import Project from "./Project";
+import horiseon from "../images/horiseon.png";
+import weatherApp from "../images/weather-app.png";
+import password from "../images/password-generator.png";
+import dayspaw from "../images/dayspaw.png";
 
 const projectList = [
   {
@@ -9,7 +13,7 @@ const projectList = [
       "Enter a city into the search field of this app for a 5-day forecast of where you would like to travel.",
     repoLink: "https://github.com/cah4758/weather-dashboard",
     appLink: "https://cah4758.github.io/weather-dashboard/",
-    screenshot: "../images/weather-screenshot.png",
+    screenshot: weatherApp,
   },
   {
     id: 2,
@@ -18,7 +22,7 @@ const projectList = [
       "Refactored into a more accessible site for those who need it.",
     repoLink: "https://github.com/cah4758/horiseon-SEO-refactor",
     appLink: "https://cah4758.github.io/horiseon-SEO-refactor/",
-    screenshot: "../images/horiseon-screenshot.png",
+    screenshot: horiseon,
   },
   {
     id: 3,
@@ -27,7 +31,7 @@ const projectList = [
       "Generate a secure password within parameters set through the prompts on your screen.",
     repoLink: "https://github.com/cah4758/password-generator",
     appLink: "https://cah4758.github.io/password-generator/",
-    screenshot: "../images/password-generator.png",
+    screenshot: password,
   },
   {
     id: 4,
@@ -36,7 +40,7 @@ const projectList = [
       "Employees of DaySpaw will be able to keep track of appointments for the day as well as input new customers for scheduling.",
     repoLink: "https://github.com/cah4758/dayspaw-mvc",
     appLink: "https://project2-dayspaw.herokuapp.com/login",
-    screenshot: "../images/dayspaw.png",
+    screenshot: dayspaw,
   },
 ];
 
