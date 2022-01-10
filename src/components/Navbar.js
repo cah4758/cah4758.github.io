@@ -1,4 +1,6 @@
 import React from "react";
+import "../index.css";
+import { Github, Linkedin, Envelope } from "react-bootstrap-icons";
 
 function Navbar() {
   return (
@@ -8,7 +10,7 @@ function Navbar() {
           Charles Hernandez
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler bg-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
@@ -16,7 +18,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon bg-dark"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -41,6 +43,30 @@ function Navbar() {
               </a>
             </li>
           </ul>
+          <div className="mt-1 d-flex justify-content-around w-25">
+            <a
+              href="https://github.com/cah4758"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Github size={20} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/charlesh4758/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Linkedin size={20} />
+            </a>
+            <a
+              href="mailto:charlesh4758@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Envelope size={20} />
+            </a>
+          </div>
         </div>
       </div>
     </nav>

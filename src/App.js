@@ -1,17 +1,18 @@
-import "./App.css";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <div className="container">
+      <div className="cover-container bg-dark">
         <AboutMe />
-        <div className="row g-3" id="projects">
+        <div className="row g-2" id="projects">
           <ProjectCard />
         </div>
+        <Footer />
       </div>
     </div>
   );

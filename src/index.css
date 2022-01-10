@@ -50,14 +50,14 @@ p {
   background-color: var(--background);
 }
 
-/* body {
+body {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 2px;
   line-height: 1.4;
   background-color: var(--background);
-} */
+}
 
 main {
   display: flex;

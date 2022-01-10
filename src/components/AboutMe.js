@@ -1,4 +1,5 @@
 import React from "react";
+import "../index.css";
 import hero from "../images/hero.png";
 
 function AboutMe() {
@@ -8,24 +9,8 @@ function AboutMe() {
         <img className="col-l-12" src={hero} alt="Photos of Charles" />
       </div>
       <div className="section p-3" id="about-me">
-        <a href="https://github.com/cah4758" rel="noreferrer" target="_blank">
-          <i className="fab fa-github fa-2x"> </i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/charlesh4758/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <i className="fab fa-linkedin fa-2x"> </i>
-        </a>
-        <a
-          href="mailto:charlesh4758@gmail.com"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <i className="fas fa-envelope fa-2x"> </i>
-        </a>
-        <h3>Music Educator | Brass Musician</h3>
+        <h1>Music Educator | Brass Musician</h1>
+
         <p>
           Growing up, I was always involved in either a sport or musical
           activity. After a decade of focusing on baseball, I ended up anchoring
