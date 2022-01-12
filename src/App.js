@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="row g-2" id="projects">
           <ProjectCard />
         </div>
+        <Contact />
         <Footer />
       </div>
     </div>
