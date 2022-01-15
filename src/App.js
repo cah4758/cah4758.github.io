@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <div className="cover-container bg-dark">
         <AboutMe />
-        <div className="row g-2" id="projects">
+        <div className="container mx-auto bg-dark row g-3" id="projects">
           <ProjectCard />
         </div>
         <Contact />
