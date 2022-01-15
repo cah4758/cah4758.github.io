@@ -35,7 +35,7 @@ function Navbar() {
             <li className="nav-item">
               <a
                 className="nav-link text-light"
-                href="https://drive.google.com/file/d/16NtMKHNf1sDPbngWmwnvQjQOq0kWTN4g/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gYgcOa7qEBqSoK-IuUTVLz1COQQkH0Gp/view"
                 rel="noreferrer"
                 target="_blank"
               >
