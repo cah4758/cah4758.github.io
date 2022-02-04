@@ -1,23 +1,26 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <div className="cover-container bg-dark">
-        <AboutMe />
-        <div className="container mx-auto bg-dark row g-3" id="projects">
-          <ProjectCard />
+    <Router>
+      <div className="body">
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/projects" element={<Projects />} />
+          </Routes>
         </div>
-        <Contact />
+        <ContactForm />
         <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 

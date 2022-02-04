@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 
-function Contact() {
+function ContactForm() {
   return (
     <>
       <div className="my-5 text-center">
@@ -76,4 +76,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactForm;

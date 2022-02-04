@@ -23,15 +23,11 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav text-center me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link text-light" href="#about-me">
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-light" href="#projects">
+              <a className="nav-link text-light" href="/projects">
                 Projects
               </a>
             </li>
+
             <li className="nav-item">
               <a
                 className="nav-link text-light"
