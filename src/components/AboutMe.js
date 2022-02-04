@@ -1,12 +1,28 @@
 import React from "react";
 import "../index.css";
 import hero from "../images/hero.png";
+import staffPic from "../images/staffPic18.JPG";
+
+const imgStyle = {
+  height: "200 px",
+  width: "300px",
+};
 
 function AboutMe() {
   return (
     <>
-      <div className="text-center">
-        <img className="col-l-12" src={hero} alt="Photos of Charles" />
+      <div class="d-flex justify-content-center">
+        <img
+          class="col-l-12 d-none d-lg-block"
+          src={hero}
+          alt="Charles Hernandez photos"
+        />
+        <img
+          class="d-none d-md-block d-lg-none"
+          style={imgStyle}
+          src={staffPic}
+          alt="Guardians Brass staff 2018"
+        />
       </div>
       <div className="section p-3" id="about-me">
         <h1>Music Educator | Brass Musician</h1>
