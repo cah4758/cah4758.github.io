@@ -13,12 +13,8 @@ function App() {
         <Navbar />
         <div className="container">
           <Routes>
-            <Route exact path="/react-portfolio/" element={<Home />} />
-            <Route
-              exact
-              path="/react-portfolio/projects"
-              element={<Projects />}
-            />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/projects" element={<Projects />} />
           </Routes>
         </div>
         <ContactForm />

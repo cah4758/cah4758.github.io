@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container-fluid">
-        <a href="/react-portfolio/" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           Charles Hernandez
         </a>
         <button
@@ -23,10 +23,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav text-center me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a
-                className="nav-link text-light"
-                href="/react-portfolio/projects"
-              >
+              <a className="nav-link text-light" href="/projects">
                 Projects
               </a>
             </li>
