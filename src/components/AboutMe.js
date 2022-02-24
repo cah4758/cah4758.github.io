@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import { Image } from "react-bootstrap";
 import hero from "../images/hero.png";
 import staffPic from "../images/staffPic18.JPG";
 
@@ -11,14 +12,14 @@ const imgStyle = {
 function AboutMe() {
   return (
     <>
-      <div class="d-flex justify-content-center">
-        <img
-          class="col-l-12 d-none d-lg-block"
+      <div className="d-flex justify-content-center">
+        <Image
+          className="col-l-12 d-none d-lg-block"
           src={hero}
           alt="Charles Hernandez photos"
         />
-        <img
-          class="d-none d-md-block d-lg-none"
+        <Image
+          className="d-none d-sm-block d-md-block d-lg-none"
           style={imgStyle}
           src={staffPic}
           alt="Guardians Brass staff 2018"
@@ -34,7 +35,6 @@ function AboutMe() {
           VERY reluctant to try something new, I ended up loving to perform
           music with a wind ensemble (thanks, Mom).
         </p>
-        <br />
         <p>
           Being able to play the Horn has afforded me some amazing opportunities
           and they are memories that I will never forget. A focal point in my
@@ -46,7 +46,6 @@ function AboutMe() {
           continue to educate Band students at Moises E. Molina High School in
           Dallas ISD.
         </p>
-        <br />
         <p>
           With my work as a Developer, I will plan to help create and optimize
           online tools to help clients students' music education and gain access
