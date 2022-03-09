@@ -1,10 +1,11 @@
 import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Github, Linkedin, Envelope } from "react-bootstrap-icons";
 import "../index.css";
 
 function Footer() {
   return (
-    <footer className="footer text-center mt-auto py-3 bg-dark">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <div className="container d-flex justify-content-evenly bg-dark">
         <a href="https://github.com/cah4758" target="_blank" rel="noreferrer">
           <Github size={30} />
@@ -25,7 +26,7 @@ function Footer() {
           <Envelope size={30} />
         </a>
       </div>
-    </footer>
+    </Navbar>
   );
 }
 

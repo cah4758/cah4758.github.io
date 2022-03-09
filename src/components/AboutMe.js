@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import { Image } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import hero from "../images/hero.png";
 import staffPic from "../images/staffPic18.JPG";
 
@@ -11,7 +11,7 @@ const imgStyle = {
 
 function AboutMe() {
   return (
-    <>
+    <Container>
       <div className="d-flex justify-content-center">
         <Image
           className="col-l-12 d-none d-lg-block"
@@ -52,7 +52,7 @@ function AboutMe() {
           to the same opportunities that I was able to experience through music.
         </p>
       </div>
-    </>
+    </Container>
   );
 }
 

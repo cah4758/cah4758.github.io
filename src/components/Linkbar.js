@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import "../index.css";
 import { Github, Linkedin, Envelope } from "react-bootstrap-icons";
 
 function Linkbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container className="bg-dark">
           <Navbar.Brand as={Link} to="/">
             Charles Hernandez
@@ -18,12 +18,16 @@ function Linkbar() {
               <Nav.Link as={Link} to="/projects">
                 Projects
               </Nav.Link>
-              <Nav.Link
-                as={Link}
-                to="https://drive.google.com/file/d/1gYgcOa7qEBqSoK-IuUTVLz1COQQkH0Gp/view"
-              >
-                Resume
-              </Nav.Link>
+              <NavDropdown title="Resume">
+                <NavDropdown.Item
+                  as={Link}
+                  target="_blank"
+                  rel="noreferrer"
+                  to="https://drive.google.com/file/d/1gYgcOa7qEBqSoK-IuUTVLz1COQQkH0Gp/view"
+                >
+                  Download
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav>
             <Nav className="flex-row">
               <Nav.Link
