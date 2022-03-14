@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Button, Form } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 import "../index.css";
 
 function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_91ao2qo",
+        "template_m5d4r97",
+        form.current,
+        "user_wzX0OsxUtWvJ7TKaqdq8P"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <>
       <div className="my-5 text-center">
@@ -35,39 +60,38 @@ function ContactForm() {
               ></button>
             </div>
             <div className="modal-body">
-              <form>
-                <div className="mb-3">
-                  <label for="contactEmail" className="col-form-label">
+              <Form ref={form} onSubmit={sendEmail}>
+                <Form.Group className="mb-3" controlId="userName">
+                  <Form.Label
+                    type="from_name"
+                    for="from_name"
+                    className="col-form-label"
+                  >
+                    Name:
+                  </Form.Label>
+                  <Form.Control type="text" name="from_name" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="userEmail">
+                  <Form.Label for="reply_to" className="col-form-label">
                     Your Email:
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="contactEmail"
-                  />
-                </div>
-                <div className="mb-3">
-                  <label for="message-text" className="col-form-label">
+                  </Form.Label>
+                  <Form.Control type="text" name="reply_to" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="message">
+                  <Form.Label for="message" className="col-form-label">
                     Message:
-                  </label>
-                  <textarea
-                    className="form-control"
-                    id="message-text"
-                  ></textarea>
+                  </Form.Label>
+                  <Form.Control type="text" name="message" />
+                </Form.Group>
+                <div className="modal-footer">
+                  <Button className="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                  </Button>
+                  <Button type="submit" className="btn btn-warning">
+                    Send message
+                  </Button>
                 </div>
-              </form>
-            </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" className="btn btn-warning">
-                Send message
-              </button>
+              </Form>
             </div>
           </div>
         </div>
