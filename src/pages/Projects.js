@@ -2,8 +2,9 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import horiseon from "../images/horiseon.png";
 import weatherApp from "../images/weather-app.png";
-import password from "../images/password-generator.png";
-import dayspaw from "../images/dayspaw.png";
+import password from "../images/pwdGen.gif";
+import dayspaw from "../images/daySpaw.gif";
+import piaTunes from "../images/piaTunes.gif";
 
 const projectList = [
   {
@@ -41,6 +42,15 @@ const projectList = [
     repoLink: "https://github.com/cah4758/dayspaw-mvc",
     appLink: "https://project2-dayspaw.herokuapp.com/login",
     screenshot: dayspaw,
+  },
+  {
+    id: 5,
+    title: "Play It Again Tunes",
+    description:
+      "Instrument rental service that allows users to select items and provide payment through Stripe.",
+    repoLink: "https://github.com/MikeMallonIT/Project3-PlayItAgainTunes",
+    appLink: "https://project3-playitagaintunes.herokuapp.com/",
+    screenshot: piaTunes,
   },
 ];
 
