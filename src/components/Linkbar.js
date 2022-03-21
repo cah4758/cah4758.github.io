@@ -23,7 +23,7 @@ function Linkbar() {
                   as={Link}
                   target="_blank"
                   rel="noreferrer"
-                  to="https://drive.google.com/file/d/1gYgcOa7qEBqSoK-IuUTVLz1COQQkH0Gp/view"
+                  to="https://drive.google.com/file/d/1kHG3d1l6oWnV0uBgdppC5c8LYwsNuZhE/view?usp=sharing"
                 >
                   Download
                 </NavDropdown.Item>
