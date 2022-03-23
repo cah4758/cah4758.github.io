@@ -20,10 +20,9 @@ function Linkbar() {
               </Nav.Link>
               <NavDropdown title="Resume">
                 <NavDropdown.Item
-                  as={Link}
                   target="_blank"
                   rel="noreferrer"
-                  to="https://drive.google.com/file/d/1kHG3d1l6oWnV0uBgdppC5c8LYwsNuZhE/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1qUve4BotpV_4KOKK4xMPH655aRZPE2Oz/view?usp=sharing"
                 >
                   Download
                 </NavDropdown.Item>
@@ -31,23 +30,26 @@ function Linkbar() {
             </Nav>
             <Nav className="flex-row">
               <Nav.Link
-                as={Link}
                 className="mx-2"
-                to="https://github.com/cah4758"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/cah4758"
               >
                 <Github size={20} />
               </Nav.Link>
               <Nav.Link
-                as={Link}
                 className="mx-2"
-                to="https://www.linkedin.com/in/charlesh4758/"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/charlesh4758/"
               >
                 <Linkedin size={20} />
               </Nav.Link>
               <Nav.Link
-                as={Link}
                 className="mx-2"
-                to="mailto:charlesh4758@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:charlesh4758@gmail.com"
               >
                 <Envelope size={20} />
               </Nav.Link>

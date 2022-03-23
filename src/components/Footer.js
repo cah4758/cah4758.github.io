@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Github, Linkedin, Envelope } from "react-bootstrap-icons";
 import "../index.css";
 
