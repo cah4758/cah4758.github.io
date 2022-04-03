@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d722659.css",
-    "main.js": "/static/js/main.43dc1e1f.js",
+    "main.css": "/static/css/main.07888467.css",
+    "main.js": "/static/js/main.b05298a3.js",
     "static/media/piaTunes.gif": "/static/media/piaTunes.9a0ab739a742ea61e29a.gif",
     "static/media/daySpaw.gif": "/static/media/daySpaw.bbce17510613ca0e3b03.gif",
     "static/media/staffPic18.JPG": "/static/media/staffPic18.c9bbbc6d8c6d81c9e742.JPG",
     "static/media/horiseon.png": "/static/media/horiseon.18ab073a34987b6eb9ed.png",
     "static/media/pwdGen.gif": "/static/media/pwdGen.68a89297b1fe267a110c.gif",
     "static/media/hero.png": "/static/media/hero.423b3565b3dcf7ffd3de.png",
+    "static/media/background.png": "/static/media/background.3ae3216ea414ed697c7b.png",
     "static/media/weather-app.png": "/static/media/weather-app.78e5210da0c23fed3be3.png",
     "index.html": "/index.html",
-    "main.0d722659.css.map": "/static/css/main.0d722659.css.map",
-    "main.43dc1e1f.js.map": "/static/js/main.43dc1e1f.js.map"
+    "main.07888467.css.map": "/static/css/main.07888467.css.map",
+    "main.b05298a3.js.map": "/static/js/main.b05298a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d722659.css",
-    "static/js/main.43dc1e1f.js"
+    "static/css/main.07888467.css",
+    "static/js/main.b05298a3.js"
   ]
 }
