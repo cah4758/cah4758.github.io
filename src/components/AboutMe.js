@@ -48,8 +48,8 @@ function AboutMe() {
         </p>
         <p>
           With my work as a Developer, I will plan to help create and optimize
-          online tools to help clients students' music education and gain access
-          to the same opportunities that I was able to experience through music.
+          online tools to help students' music education and gain access to the
+          same opportunities that I was able to experience through music.
         </p>
       </div>
     </Container>
