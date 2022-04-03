@@ -32,8 +32,8 @@ function AboutMe() {
           Growing up, I was always involved in either a sport or musical
           activity. After a decade of focusing on baseball, I ended up anchoring
           myself in learning how to play the Horn. Despite the fact that I was
-          VERY reluctant to try something new, I ended up loving to perform
-          music with a wind ensemble (thanks, Mom).
+          reluctant to try something new, I ended up loving to perform music
+          with a wind ensemble (thanks, Mom).
         </p>
         <p>
           Being able to play the Horn has afforded me some amazing opportunities

@@ -32,7 +32,7 @@ function ContactForm() {
       <div className="my-5 text-center">
         <button
           type="button"
-          class="btn btn-warning"
+          className="btn btn-warning"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
@@ -42,7 +42,7 @@ function ContactForm() {
       <div
         className="modal fade"
         id="exampleModal"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
@@ -64,7 +64,7 @@ function ContactForm() {
                 <Form.Group className="mb-3" controlId="userName">
                   <Form.Label
                     type="from_name"
-                    for="from_name"
+                    htmlFor="from_name"
                     className="col-form-label"
                   >
                     Name:
@@ -72,13 +72,13 @@ function ContactForm() {
                   <Form.Control type="text" name="from_name" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="userEmail">
-                  <Form.Label for="reply_to" className="col-form-label">
+                  <Form.Label htmlFor="reply_to" className="col-form-label">
                     Your Email:
                   </Form.Label>
                   <Form.Control type="text" name="reply_to" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="message">
-                  <Form.Label for="message" className="col-form-label">
+                  <Form.Label htmlFor="message" className="col-form-label">
                     Message:
                   </Form.Label>
                   <Form.Control type="text" name="message" />
