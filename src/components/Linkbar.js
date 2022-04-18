@@ -22,7 +22,7 @@ function Linkbar() {
                 <NavDropdown.Item
                   target="_blank"
                   rel="noreferrer"
-                  href="https://bit.ly/cah4758"
+                  href="https://bit.ly/CAH4758"
                 >
                   Download
                 </NavDropdown.Item>
