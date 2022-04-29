@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "../index.css";
 import { Github, Linkedin, Envelope } from "react-bootstrap-icons";
 
@@ -22,7 +25,7 @@ function Linkbar() {
                 <NavDropdown.Item
                   target="_blank"
                   rel="noreferrer"
-                  href="https://bit.ly/CAH4758"
+                  href="https://bit.ly/cah_4758"
                 >
                   Download
                 </NavDropdown.Item>

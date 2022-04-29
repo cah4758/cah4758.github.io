@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
-import { Container, Image } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 import hero from "../images/hero.png";
 import staffPic from "../images/staffPic18.JPG";
 
@@ -25,7 +26,7 @@ function AboutMe() {
           alt="Guardians Brass staff 2018"
         />
       </div>
-      <div className="section p-3" id="about-me">
+      <div className="section p-3 bg-transparent" id="about-me">
         <h1>Music Educator | Brass Musician</h1>
 
         <p>

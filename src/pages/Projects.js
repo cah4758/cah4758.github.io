@@ -9,21 +9,21 @@ import piaTunes from "../images/piaTunes.gif";
 const projectList = [
   {
     id: 1,
-    title: "Weather Dashboard",
+    title: "Play It Again Tunes",
     description:
-      "Enter a city into the search field of this app for a 5-day forecast of where you would like to travel.",
-    repoLink: "https://github.com/cah4758/weather-dashboard",
-    appLink: "https://cah4758.github.io/weather-dashboard/",
-    screenshot: weatherApp,
+      "Instrument rental service that allows users to select items and provide payment through Stripe.",
+    repoLink: "https://github.com/MikeMallonIT/Project3-PlayItAgainTunes",
+    appLink: "https://project3-playitagaintunes.herokuapp.com/",
+    screenshot: piaTunes,
   },
   {
     id: 2,
-    title: "Horiseon SEO Refactor",
+    title: "DaySpaw Employee Portal",
     description:
-      "Refactored into a more accessible site for those who need it.",
-    repoLink: "https://github.com/cah4758/horiseon-SEO-refactor",
-    appLink: "https://cah4758.github.io/horiseon-SEO-refactor/",
-    screenshot: horiseon,
+      "Employees of DaySpaw will be able to keep track of appointments for the day as well as input new customers for scheduling.",
+    repoLink: "https://github.com/cah4758/dayspaw-mvc",
+    appLink: "https://project2-dayspaw.herokuapp.com/login",
+    screenshot: dayspaw,
   },
   {
     id: 3,
@@ -36,21 +36,21 @@ const projectList = [
   },
   {
     id: 4,
-    title: "DaySpaw Employee Portal",
+    title: "Horiseon SEO Refactor",
     description:
-      "Employees of DaySpaw will be able to keep track of appointments for the day as well as input new customers for scheduling.",
-    repoLink: "https://github.com/cah4758/dayspaw-mvc",
-    appLink: "https://project2-dayspaw.herokuapp.com/login",
-    screenshot: dayspaw,
+      "Refactored into a more accessible site for those who need it.",
+    repoLink: "https://github.com/cah4758/horiseon-SEO-refactor",
+    appLink: "https://cah4758.github.io/horiseon-SEO-refactor/",
+    screenshot: horiseon,
   },
   {
     id: 5,
-    title: "Play It Again Tunes",
+    title: "Weather Dashboard",
     description:
-      "Instrument rental service that allows users to select items and provide payment through Stripe.",
-    repoLink: "https://github.com/MikeMallonIT/Project3-PlayItAgainTunes",
-    appLink: "https://project3-playitagaintunes.herokuapp.com/",
-    screenshot: piaTunes,
+      "Enter a city into the search field of this app for a 5-day forecast of where you would like to travel.",
+    repoLink: "https://github.com/cah4758/weather-dashboard",
+    appLink: "https://cah4758.github.io/weather-dashboard/",
+    screenshot: weatherApp,
   },
 ];
 
