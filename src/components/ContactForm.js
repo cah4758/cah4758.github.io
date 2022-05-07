@@ -30,10 +30,10 @@ function ContactForm() {
 
   return (
     <>
-      <div className="my-5 text-center">
+      <div className="text-center">
         <button
           type="button"
-          className="btn btn-warning"
+          className="btn btn-warning mb-10"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >

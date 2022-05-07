@@ -20,7 +20,7 @@ function AboutMe() {
           alt="Charles Hernandez photos"
         />
         <Image
-          className="d-none d-sm-block d-md-block d-lg-none"
+          className="d-sm-block d-md-block d-lg-none"
           style={imgStyle}
           src={staffPic}
           alt="Guardians Brass staff 2018"
@@ -48,9 +48,11 @@ function AboutMe() {
           Dallas ISD.
         </p>
         <p>
-          With my work as a Developer, I will plan to help create and optimize
-          online tools to help students' music education and gain access to the
-          same opportunities that I was able to experience through music.
+          While teaching during this pandemic, I noticed the lack of learning
+          resources that my students could quickly access and I wanted to find a
+          way to fix that. With my work as a Developer, I look forward to work
+          with a diverse team that embraces the idea of creating access and
+          opportunities to clients through the power of the web.
         </p>
       </div>
     </Container>

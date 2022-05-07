@@ -15,6 +15,7 @@ const projectList = [
     repoLink: "https://github.com/MikeMallonIT/Project3-PlayItAgainTunes",
     appLink: "https://project3-playitagaintunes.herokuapp.com/",
     screenshot: piaTunes,
+    tech: "ChakraUI, Express, Redux, Stripe",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const projectList = [
     repoLink: "https://github.com/cah4758/dayspaw-mvc",
     appLink: "https://project2-dayspaw.herokuapp.com/login",
     screenshot: dayspaw,
+    tech: "Handlebars, Materialize, Express, MySQL, Node.js",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const projectList = [
     repoLink: "https://github.com/cah4758/password-generator",
     appLink: "https://cah4758.github.io/password-generator/",
     screenshot: password,
+    tech: "JavaScript",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ const projectList = [
     repoLink: "https://github.com/cah4758/horiseon-SEO-refactor",
     appLink: "https://cah4758.github.io/horiseon-SEO-refactor/",
     screenshot: horiseon,
+    tech: "HTML5",
   },
   {
     id: 5,
@@ -51,6 +55,7 @@ const projectList = [
     repoLink: "https://github.com/cah4758/weather-dashboard",
     appLink: "https://cah4758.github.io/weather-dashboard/",
     screenshot: weatherApp,
+    tech: "JavaScript",
   },
 ];
 
@@ -72,6 +77,7 @@ export default function Projects() {
             repoLink={project.repoLink}
             appLink={project.appLink}
             screenshot={project.screenshot}
+            tech={project.tech}
           />
         ))}
       </div>

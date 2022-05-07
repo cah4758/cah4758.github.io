@@ -1,8 +1,12 @@
 import React from "react";
 
+const cardStyle = {
+  height: "460 px",
+};
+
 export default function ProjectCard(props) {
   return (
-    <div className="col-sm-12 col-md-6 col-lg-4">
+    <div className="col-sm-12 col-md-6 col-lg-4" style={cardStyle}>
       <img
         className="card-img-top h-auto"
         src={props.screenshot}
@@ -11,6 +15,7 @@ export default function ProjectCard(props) {
       <div className="card-body bg-secondary">
         <h4 className="card-title bg-secondary">{props.title}</h4>
         <p className="card-text">{props.description}</p>
+        <p className="card-text">Tech Used: {props.tech}</p>
         <div className="d-flex justify-content-between align-items-center">
           <div className="btn-group">
             <a className="btn text-dark" href={props.appLink}>
