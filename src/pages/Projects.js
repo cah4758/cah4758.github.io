@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import horiseon from "../images/horiseon.png";
+import budgetTracker from "../images/budget-tracker.gif";
 import weatherApp from "../images/weather-app.png";
 import password from "../images/pwdGen.gif";
 import dayspaw from "../images/daySpaw.gif";
@@ -39,13 +39,13 @@ const projectList = [
   },
   {
     id: 4,
-    title: "Horiseon SEO Refactor",
+    title: "Budget Tracker",
     description:
-      "Refactored into a more accessible site for those who need it.",
-    repoLink: "https://github.com/cah4758/horiseon-SEO-refactor",
-    appLink: "https://cah4758.github.io/horiseon-SEO-refactor/",
-    screenshot: horiseon,
-    tech: "HTML5",
+      "Users can keep track of finances with added offline functionality.",
+    repoLink: "https://github.com/cah4758/budget-tracker",
+    appLink: "https://budget-tracker-4758.herokuapp.com/",
+    screenshot: budgetTracker,
+    tech: "JavaScript, indexedDb",
   },
   {
     id: 5,
