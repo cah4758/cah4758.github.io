@@ -2,7 +2,11 @@ import React from "react";
 import AboutMe from "../components/AboutMe";
 
 const Home = () => {
-  return <AboutMe />;
+  return (
+    <>
+      <AboutMe />
+    </>
+  );
 };
 
 export default Home;

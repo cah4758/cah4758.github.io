@@ -21,6 +21,10 @@ function Linkbar() {
               <Nav.Link as={Link} to="/projects">
                 Projects
               </Nav.Link>
+              {/* Working to populate resume to homepage */}
+              {/* <Nav.Link as={Link} to="#resume">
+                Resume
+              </Nav.Link> */}
               <NavDropdown title="Resume">
                 <NavDropdown.Item
                   target="_blank"

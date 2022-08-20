@@ -33,24 +33,25 @@ function ContactForm() {
       <div className="text-center">
         <button
           type="button"
-          className="btn btn-warning mb-10"
+          className="btn mb-10"
           data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
+          data-bs-target="#contactModal"
+          style={{ backgroundColor: "#FF8229" }}
         >
           Get in contact with me!{" "}
         </button>
       </div>
       <div
         className="modal fade"
-        id="exampleModal"
+        id="contactModal"
         tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="contactModalLabel"
         aria-hidden="true"
       >
         <div className="modal-dialog">
           <div className="modal-content bg-secondary">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">
+              <h5 className="modal-title" id="contactModalLabel">
                 Contact Me
               </h5>
               <button

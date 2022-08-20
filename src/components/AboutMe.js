@@ -12,7 +12,7 @@ const imgStyle = {
 
 function AboutMe() {
   return (
-    <Container>
+    <Container id="about-me">
       <div className="d-flex justify-content-center">
         <Image
           className="col-l-12 d-none d-lg-block"
