@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard";
+import { Container } from "react-bootstrap";
+import ProjectCard from "./ProjectCard";
 import budgetTracker from "../images/budget-tracker.gif";
 import weatherApp from "../images/weather-app.gif";
 import password from "../images/pwdGen.gif";
@@ -61,8 +62,8 @@ const projectList = [
 
 export default function Projects() {
   return (
-    <>
-      <h2 className="text-center">Current Projects</h2>
+    <Container id="projects" className="section">
+      <h2 className="text-center">Past Projects</h2>
       <p className="text-center">
         Throughout my learning, I have been lucky to work on a few things
         already. If you have any questions, or even some suggestions, please
@@ -81,6 +82,6 @@ export default function Projects() {
           />
         ))}
       </div>
-    </>
+    </Container>
   );
 }

@@ -12,7 +12,7 @@ const imgStyle = {
 
 function AboutMe() {
   return (
-    <Container id="about-me">
+    <Container id="about-me" className="section">
       <div className="d-flex justify-content-center">
         <Image
           className="col-l-12 d-none d-lg-block"
@@ -26,8 +26,8 @@ function AboutMe() {
           alt="Guardians Brass staff 2018"
         />
       </div>
-      <div className="section p-3 bg-transparent" id="about-me">
-        <h1>Music Educator | Brass Musician</h1>
+      <div className="p-3 bg-none">
+        <h1>Developer | Music Educator | Brass Musician</h1>
 
         <p>
           Growing up, I was always involved in either a sport or musical

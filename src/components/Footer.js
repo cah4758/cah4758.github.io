@@ -5,7 +5,7 @@ import "../index.css";
 
 function Footer() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="bottom">
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="bottom">
       <div className="container d-flex justify-content-evenly bg-dark">
         <a href="https://github.com/cah4758" target="_blank" rel="noreferrer">
           <Github size={30} />

@@ -18,9 +18,9 @@ function Linkbar() {
           <Navbar.Toggle aria-controls="navbar" />
           <Navbar.Collapse id="navbar" className="justify-content-end">
             <Nav className="ml-auto">
-              <Nav.Link as={Link} to="/projects">
+              {/* <Nav.Link as={Link} to="#projects">
                 Projects
-              </Nav.Link>
+              </Nav.Link> */}
               {/* Working to populate resume to homepage */}
               {/* <Nav.Link as={Link} to="#resume">
                 Resume
